@@ -1,5 +1,9 @@
+# -*- coding: utf-8 -*-
 import jieba.analyse
 import Global_param
+import sys;
+reload(sys);
+sys.setdefaultencoding('utf8')
 #coding=utf-8  
 def Get_keywords(day):
     fr = open(Global_param.test_root+'test/train_date_set1/train_date_set1_%d.txt'%day)

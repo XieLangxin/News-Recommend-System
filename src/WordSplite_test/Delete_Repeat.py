@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import Global_param
 #coding=utf-8  
 def Delete_Repeat():
