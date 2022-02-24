@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 import jieba.analyse
 import Global_param
-import sys;
-reload(sys);
+import sys
+# import importlib
+
+# importlib.reload(sys)
+reload(sys)
 sys.setdefaultencoding('utf8')
 #coding=utf-8  
 def Get_keywords(day):

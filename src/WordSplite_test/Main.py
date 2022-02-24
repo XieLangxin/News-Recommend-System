@@ -13,4 +13,5 @@ def main():
     Delete_Repeat.Delete_Repeat()
     Get_hot_result.get_hot_result(Global_param.hot_rate)
 
-main()    
+if __name__ == '__main__':
+    main()
